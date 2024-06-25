@@ -1,0 +1,40 @@
+
+
+body nav.navbar{
+    background-color: grey;
+    box-sizing: border-box;
+}
+
+.navbar .company-name .navbar-brand{
+    font-style: italic;
+    font-size: 50px;
+}
+
+.row .card-body{
+    background-color: grey;
+    border: 1px ;
+    border-color: black;
+    
+    
+}
+
+.header{
+    padding: 50px;
+
+}
+
+.card-text{
+    text-align: center;
+}
+
+/*For Extra Small Devices and Small Devices*/
+@media (max-width:550px){
+.card-body{
+    margin-bottom: 15px;
+}
+
+.header h1{
+    font-size: 63px;
+}
+
+}
